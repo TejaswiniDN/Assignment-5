@@ -15,7 +15,7 @@
             <div class="col-md-4"></div>
             <div id="si-main" class="box row col-md-4">
                 <label>Principal:</label>
-                <input type="number" id="a" class="amount" placeholder="Initial investment" ><br>
+                <input type="number" id="a" class="amount" placeholder="Initial amount" ><br>
                 <label>Time period:</label>
                 
 
@@ -51,8 +51,8 @@
                     SI = (p*n*r)/(12*100);
                 }
                 tot = (parseFloat(p) + parseFloat(SI)).toFixed(3);
-                document.getElementById("result").innerHTML="Simple Intrest is: "+ SI.toFixed(3);
-                document.getElementById("result1").innerHTML="Final amount is: " + tot;
+                document.getElementById("result").innerHTML="Simple Intrest is  : "+ SI.toFixed(3);
+                document.getElementById("result1").innerHTML="Total amount is : " + tot;
             }
 
             

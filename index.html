@@ -17,7 +17,7 @@
                 <label>Principal:</label>
                 <input type="number" id="a" class="amount" placeholder="Initial investment" ><br>
                 <label>Time period:</label>
-                <input type="number" id="b" class="time" placeholder="Time period"><br>
+                
 
                 <select id = "myList" class="text-center " onchange = "time()" >
                     <option> ---Choose Time--- </option>
@@ -25,6 +25,8 @@
                     <option> Months </option>
                     
                 </select>
+                <input type="number" id="b" class="time" placeholder="Time period"><br>
+
                 <label>Interest Rate(%):</label>
                 <input type="number" id="d" class="amount" placeholder="Interest rate"><br>
                 <button id="cal" class=" col-md-12 text-center btn-sm" onclick="calculate();">Calculate</button>
